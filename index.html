@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Заголовок</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<link rel="stylesheet" href="css/style.min.css" type="text/css" />
+	<link rel="stylesheet" href="css/all.min.css" type="text/css" />
+</head>
+<body>
+<div class="container">
+	<div class="fixed">
+		<div class="fixed_wrap wrap">
+			<div class="fixed_hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="fixed_repair">
+				<p>Ремонт <span>Номер 1 в ...</span></p> 
+			</div>
+			<div class="fixed_map">
+				<p>Івано-Франківськ <span>вул. Набережна</span></p>
+			</div>
+			<div class="fixed_phone">
+				<a href="tel:+388001234567">
+					<img src="img/phone.svg" alt="Телефон">
+					<span>+38 800 123 45 67</span>
+				</a>
+			</div>
+			<button class="fixed_btn">Замовте дзвінок</button>
+			<p class="fixed_callback">перетелефонуємо <br>за 24 секунди</p>
+		</div>
+	</div>
+	<div class="main-menu main-menu--active">
+		<ul class="main-menu_list">
+			<li class="main-menu_item">
+				<button class="main-menu_close">Меню</button>
+			</li>
+			<li class="main-menu_item">
+				<a href="#secondPage" class="main-menu_link">Портфоліо</a>
+			</li>
+			<li class="main-menu_item">
+				<a href="#thirdPage" class="main-menu_link">Деталі роботи</a>
+			</li>
+			<li class="main-menu_item">
+				<a href="#fourthPage" class="main-menu_link">Як працюємо</a>
+			</li>
+			<li class="main-menu_item">
+				<a href="#fifthPage" class="main-menu_link">Калькулятор</a>
+			</li>
+			<li class="main-menu_item">
+				<a href="#sixPage" class="main-menu_link">Контакти</a>
+			</li>
+			<li class="main-menu_item">
+				<a href="tel:+388001234567" class="main-menu_phone">+38 800 123 45 67</a>
+			</li>
+			<li class="main-menu_item">
+				<button class="main-menu_btn">Замовте дзвінок</button>
+			</li>
+			<li class="main-menu_item">
+				<p class="main-menu_callback">Перетелефонуємо за 24 секунди</p>
+			</li>
+		</ul>
+	</div>
+	<ul class="menu">
+		<li data-menuanchor="firstPage" class="menu_item active"><a href="#firstPage" aria-label="Перший екран"></a></li>
+		<li data-menuanchor="secondPage" class="menu_item"><a href="#secondPage" aria-label="Другий екран"></a></li>
+		<li data-menuanchor="thirdPage" class="menu_item"><a href="#thirdPage" aria-label="Третій екран"></a></li>
+		<li data-menuanchor="fourthPage" class="menu_item"><a href="#fourthPage" aria-label="Четвертий екран"></a></li>
+		<li data-menuanchor="fifthPage" class="menu_item"><a href="#fifthPage" aria-label="П'ятий екран"></a></li>
+		<li data-menuanchor="sixPage" class="menu_item"><a href="#sixPage" aria-label="Шостий екран"></a></li>
+	</ul>
+	<button class="scroll-down">
+		<img src="img/scroll-down.svg" alt="Вниз">
+		<span>Гортайте <br> вниз</span> 
+	</button>
+	<div class="fullpage">
+		<header class="header section">
+			<div class="header_wrap wrap">
+				<h1 class="header_title">Ремонт квартир у ...</h1>
+				<h2 class="header_subtitle">від 5000 грн./м. термін від 10 днів з гарантією 1 рік</h2>
+				<div class="header_buttons">
+					<a href="#" class="header_work">Дивитись роботи</a>
+					<p class="header_lider"><span>Лідер ринку</span><span>2019</span></p>
+				</div>
+			</div>
+			<div class="header_wrap-two wrap">
+				<ul class="header_list advanages">
+					<li class="advanages_item">
+						<img src="img/icon1.svg" alt="Заміри" class="advanages_icon">
+						<p class="advanages_text">Заміри приміщення для майбутнього ремонту</p>
+					</li>
+					<li class="advanages_item">
+						<img src="img/icon2.svg" alt="Кошторис" class="advanages_icon">
+						<p class="advanages_text">Детальний кошторис робіт</p>
+					</li>
+					<li class="advanages_item">
+						<img src="img/icon3.svg" alt="Вартість метеріалів" class="advanages_icon">
+						<p class="advanages_text">Розрахунок вартості матеріалів</p>
+					</li>
+					<li class="advanages_item">
+						<img src="img/icon4.svg" alt="Вартість ремонту" class="advanages_icon">
+						<p class="advanages_text">Попередня вартість ремонту</p>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<section class="projects section">
+			<div class="projects_wrap wrap">
+				<div class="projects_slides slide">
+					<h2 class="projects_title">З 2012 року успішно виконали більше 300 обєктів</h2>
+					<p class="projects_example">Ось деякі приклади</p>
+					<div class="projects_gallery">
+						<div class="projects_big">
+							<img src="img/gallery-big.jpg" alt="">
+						</div>
+						<div class="projects_mini">
+							<a href="#" aria-label="Перше фото" data-src="img/gallery-big.jpg">
+								<img src="img/gallery-mini1.jpg" alt="">
+							</a>
+							<a href="#" aria-label="Перше фото" data-src="img/gallery-big.jpg">
+								<img src="img/gallery-mini2.jpg" alt="">
+							</a>
+							<a href="#" aria-label="Перше фото" data-src="img/gallery-big.jpg">
+								<img src="img/gallery-mini3.jpg" alt="">
+							</a>
+							<a href="#" aria-label="Перше фото" data-src="img/gallery-big.jpg">
+								<img src="img/gallery-mini4.jpg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="projects_information">
+						<div class="projects_it-was">
+							<p>Що було</p>
+							<p>Квартира з стандартним плануванням і чорновою обробкою.</p>
+						</div>
+						<div class="projects_task">
+							<p>Задача</p>
+							<ul>
+								<li>Дистанційно розробити дизайн проект з наступною реалізацією.</li>
+								<li>Підібрати всі необхідні матеріали і предмети інтерєру.</li>
+								<li>Замовник побажав зробити нові перегородки з газобетону.</li>
+							</ul>
+						</div>
+						<div class="projects_result">
+							<p>Результат</p>
+							<p>Виконали повний демонтаж стін і поставили перегородки. За рахунок препланування квартири звільнили багато корисного ростору. Зробили світлий і домашній затишок в квартирі. Поміняли всю електрику під дизайн-проект</p>
+						</div>
+					</div>
+					<div class="projects_object">
+						<div class="projects_item">
+							<p>Обєкт: <span>3-х кімнатна квартира</span></p>
+						</div>
+						<div class="projects_item">
+							<p>Площа: <span>82м2</p>
+						</div>
+						<div class="projects_item">
+							<p>Житловий комплес: <span>Гранд фамілія</span></p>
+						</div>
+						<div class="projects_item">
+							<p>Вид ремонту: <span>Преміум</span></p>
+						</div>
+						<div class="projects_item">
+							<p>Термін: <span>6 місяців</span></p>
+						</div>
+						<div class="projects_item">
+							<p>Вартість: <span>1 000 000 грн</span></p>
+						</div>
+					</div>
+				</div>
+				<div class="projects_slides slide">
+					<h2 class="projects_title">З 2012 року успішно виконали більше 300 обєктів</h2>
+					<p class="projects_example">Ось деякі приклади</p>
+					<div class="projects_gallery">
+						<div class="projects_big">
+							<img src="img/gallery-big.jpg" alt="">
+						</div>
+						<div class="projects_mini">
+							<a href="#" aria-label="Перше фото" data-src="img/gallery-big.jpg">
+								<img src="img/gallery-mini1.jpg" alt="">
+							</a>
+							<a href="#" aria-label="Перше фото" data-src="img/gallery-big.jpg">
+								<img src="img/gallery-mini2.jpg" alt="">
+							</a>
+							<a href="#" aria-label="Перше фото" data-src="img/gallery-big.jpg">
+								<img src="img/gallery-mini3.jpg" alt="">
+							</a>
+							<a href="#" aria-label="Перше фото" data-src="img/gallery-big.jpg">
+								<img src="img/gallery-mini4.jpg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="projects_information">
+						<div class="projects_it-was">
+							<p>Що було</p>
+							<p>Квартира з стандартним плануванням і чорновою обробкою.</p>
+						</div>
+						<div class="projects_task">
+							<p>Задача</p>
+							<ul>
+								<li>Дистанційно розробити дизайн проект з наступною реалізацією.</li>
+								<li>Підібрати всі необхідні матеріали і предмети інтерєру.</li>
+								<li>Замовник побажав зробити нові перегородки з газобетону.</li>
+							</ul>
+						</div>
+						<div class="projects_result">
+							<p>Результат</p>
+							<p>Виконали повний демонтаж стін і поставили перегородки. За рахунок препланування квартири звільнили багато корисного ростору. Зробили світлий і домашній затишок в квартирі. Поміняли всю електрику під дизайн-проект</p>
+						</div>
+					</div>
+					<div class="projects_object">
+						<div class="projects_item">
+							<p>Обєкт: <span>3-х кімнатна квартира</span></p>
+						</div>
+						<div class="projects_item">
+							<p>Площа: <span>82м2</p>
+						</div>
+						<div class="projects_item">
+							<p>Житловий комплес: <span>Гранд фамілія</span></p>
+						</div>
+						<div class="projects_item">
+							<p>Вид ремонту: <span>Преміум</span></p>
+						</div>
+						<div class="projects_item">
+							<p>Термін: <span>6 місяців</span></p>
+						</div>
+						<div class="projects_item">
+							<p>Вартість: <span>1 000 000 грн</span></p>
+						</div>
+					</div>
+				</div>
+				<div class="projects_slides slide">
+					<h2 class="projects_title">З 2012 року успішно виконали більше 300 обєктів</h2>
+					<p class="projects_example">Ось деякі приклади</p>
+					<div class="projects_gallery">
+						<div class="projects_big">
+							<img src="img/gallery-big.jpg" alt="">
+						</div>
+						<div class="projects_mini">
+							<a href="#" aria-label="Перше фото" data-src="img/gallery-big.jpg">
+								<img src="img/gallery-mini1.jpg" alt="">
+							</a>
+							<a href="#" aria-label="Перше фото" data-src="img/gallery-big.jpg">
+								<img src="img/gallery-mini2.jpg" alt="">
+							</a>
+							<a href="#" aria-label="Перше фото" data-src="img/gallery-big.jpg">
+								<img src="img/gallery-mini3.jpg" alt="">
+							</a>
+							<a href="#" aria-label="Перше фото" data-src="img/gallery-big.jpg">
+								<img src="img/gallery-mini4.jpg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="projects_information">
+						<div class="projects_it-was">
+							<p>Що було</p>
+							<p>Квартира з стандартним плануванням і чорновою обробкою.</p>
+						</div>
+						<div class="projects_task">
+							<p>Задача</p>
+							<ul>
+								<li>Дистанційно розробити дизайн проект з наступною реалізацією.</li>
+								<li>Підібрати всі необхідні матеріали і предмети інтерєру.</li>
+								<li>Замовник побажав зробити нові перегородки з газобетону.</li>
+							</ul>
+						</div>
+						<div class="projects_result">
+							<p>Результат</p>
+							<p>Виконали повний демонтаж стін і поставили перегородки. За рахунок препланування квартири звільнили багато корисного ростору. Зробили світлий і домашній затишок в квартирі. Поміняли всю електрику під дизайн-проект</p>
+						</div>
+					</div>
+					<div class="projects_object">
+						<div class="projects_item">
+							<p>Обєкт: <span>3-х кімнатна квартира</span></p>
+						</div>
+						<div class="projects_item">
+							<p>Площа: <span>82м2</p>
+						</div>
+						<div class="projects_item">
+							<p>Житловий комплес: <span>Гранд фамілія</span></p>
+						</div>
+						<div class="projects_item">
+							<p>Вид ремонту: <span>Преміум</span></p>
+						</div>
+						<div class="projects_item">
+							<p>Термін: <span>6 місяців</span></p>
+						</div>
+						<div class="projects_item">
+							<p>Вартість: <span>1 000 000 грн</span></p>
+						</div>
+					</div>
+				</div>
+				<div class="projects_counts">
+					<span class="projects_first">1</span>
+					/
+					<span class="projects_last">520</span>
+				</div>
+			</div>
+		</section>
+		<section class="details section">
+			<div class="details_wrap wrap">
+				<h2 class="details_title">При ремонті приміщень враховуємо всі деталі</h2>
+				<p class="details_text">Якість ремонту відповідає очікуванням клієнта. Тому що для своїх ремонтів ми використовуємо виключно якісні матеріали партнерів</p>
+				<ul class="details_list">
+					<li class="details_item"><span>Фарбуємо любі поверхні рівномірно</span></li>
+					<li class="details_item"><span>Фарбуємо любі поверхні рівномірно</span></li>
+					<li class="details_item"><span>Фарбуємо любі поверхні рівномірно</span></li>
+					<li class="details_item"><span>Фарбуємо любі поверхні рівномірно</span></li>
+				</ul>
+			</div>
+		</section>
+		<section class="list-of-works section">
+			<div class="list-of-works_wrap wrap">
+				<h2 class="list-of-works_title">Ось так ми спрощуємо життя наших клієнтів</h2>
+				<ul class="list-of-works_block">
+					<li class="list-of-works_item">
+						<p>Ремонт</p>
+						<p>Виконаємо ремонт будь-якої складності в зазначені терміни</p>
+					</li>
+					<li class="list-of-works_item">
+						<p>Дизайн проект</p>
+						<p>Складемо індивідуальний дизайн - проект, виходячи з ваших побажань</p>
+					</li>
+					<li class="list-of-works_item">
+						<p>Безкоштовні заміри</p>
+						<p>Замірщик приїде на заміри в будь-який зручний для вас час і безкоштовно складе кошторис</p>
+					</li>
+					<li class="list-of-works_item">
+						<p>Закупівля будівельних матеріалів</p>
+						<p>Допоможемо чи самостійно придбаємо будівельні матеріали зі знижкою 25%</p>
+					</li>
+					<li class="list-of-works_item">
+						<p>Безкоштовна доставка</p>
+						<p>Забезпечимо доставку будівельних матеріалів в встановлені терміни</p>
+					</li>
+					<li class="list-of-works_item">
+						<p>Прибирання сміття</p>
+						<p>Приберемо територію будівництва від будівельного сміття</p>
+					</li>
+					<li class="list-of-works_item">
+						<p>Подарунки  для клієнтів</p>
+						<p>При замовленні ремонта під ключ даримо приємні подарунки</p>
+					</li>
+					<li class="list-of-works_item">
+						<p>Контроль якості</p>
+						<p>В будь-який час ви можете самостійно оцінити якість виконаних робіт</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="calculator section">
+			<div class="calculator_wrap wrap">
+				<h2 class="calculator_title">Розрахуйте вартість ремонту</h2>
+				<picture>
+					<source media="(min-width: 1024px)"
+									srcset="img/calculator-desktop.png"
+					>
+					<img 
+						class="calculator_img"
+						src="img/calculator.png" 
+						alt="Calculator" 
+					>
+				</picture>
+				<form class="calculator_form calc" action="#">
+					<fieldset class="calc_group">
+						<legend class="calc_title">Тип будівлі</legend>
+							<div class="calc_wrap">
+								<div class="calc_radio">
+									<input id="new" type="radio" name="building" value="new" checked>
+									<label for="new">Новобудова</label>
+								</div>
+								<div class="calc_radio">
+									<input id="old" type="radio" name="building" value="old">
+									<label for="old">Вторинна</label>
+								</div>
+							</div>
+					</fieldset>
+					<fieldset class="calc_group">
+						<legend class="calc_title">Місце знаходження</legend>
+							<div class="calc_wrap">
+								<div class="calc_radio">
+									<input id="city" type="radio" name="location" value="city" checked>
+									<label for="city">Івано-Франківськ</label>
+								</div>
+								<div class="calc_radio">
+									<input id="region" type="radio" name="location" value="region">
+									<label for="region">Область</label>
+								</div>
+							</div>
+					</fieldset>
+					<fieldset class="calc_group">
+						<legend class="calc_title">Тип ремонту</legend>
+							<div class="calc_wrap">
+								<div class="calc_radio">
+									<input id="kosmetik" type="radio" name="remont" value="kosmetik" checked>
+									<label for="kosmetik">Косметичний</label>
+								</div>
+								<div class="calc_radio">
+									<input id="capital" type="radio" name="remont" value="capital">
+									<label for="capital">Капітальний</label>
+								</div>
+								<div class="calc_radio">
+									<input id="desiner" type="radio" name="remont" value="desiner">
+									<label for="desiner">Дизайнерський</label>
+								</div>
+							</div>
+					</fieldset>
+					<fieldset class="calc_group">
+						<legend class="calc_title">Площа м2</legend>
+							<div class="calc_wrap">
+								<div class="calc_input">
+									<input class="calc_square" aria-label="Площа приміщення" type="number" name="square" min="1" max="1000" placeholder="68">
+								</div>
+								<div class="calc_range">
+									<output>1</output>
+									<input aria-label="Площа приміщення" type="range" name="square" min="1" max="1000" step="1" value="1">
+								</div>
+							</div>
+					</fieldset>
+					<div class="calc_wrap">
+						<button class="calc_btn">Розрахувати</button>
+						<p class="calc_result">Результат <span>1 000 000</span> грн.</p>
+					</div>
+				</form>
+			</div>
+		</section>
+		<section class="contacts section">
+			<div class="contacts_wrap wrap">
+				<h2 class="contacts_title">Звяжіться з нами будь яким зручним способом</h2>
+				<div class="contacts_info">
+					<p class="contacts_phone">
+						<span>Телефон:</span>
+						<a href="tel:+388001234567">+38 800 123 45 67</a>
+					</p>
+					<p class="contacts_mail">
+						<span>E-mail:</span>
+						<a href="mailto:test@gmail.com">test@gmail.com</a>
+					</p>
+					<p class="contacts_guest">Або приїзджайте до нас в гості</p>
+					<p class="contacts_address">
+						<span>Адрес:</span>
+						<span>м. Івано-Франківськ, вул. Набережна</span>
+					</p>
+					<p class="contacts_shema">
+						<span>Як швидко нас знайти</span>
+						<a href="#">схема проходу</a>
+					</p>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+<script src="js/all.min.js"></script>
+</body>
+</html>
